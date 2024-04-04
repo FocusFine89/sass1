@@ -1,0 +1,55 @@
+$padding-block: (
+  "sm": 0.5em,
+  "normal": 1em,
+  "md": 1.5em,
+  "lg": 2em,
+  "xl": 3em,
+);
+
+$padding-inline: (
+  "sm": 0.5em,
+  "normal": 1em,
+  "md": 1.5em,
+  "lg": 2em,
+  "xl": 3em,
+);
+
+@each $key, $val in $padding-block {
+  .p-block-#{$key} {
+    padding-block: $val;
+  }
+}
+
+@each $key, $val in $padding-inline {
+  .p-inline-#{$key} {
+    padding-inline: $val;
+  }
+}
+
+$margin-block: (
+  "sm": 0.5em,
+  "normal": 1em,
+  "md": 1.5em,
+  "lg": 2em,
+  "xl": 3em,
+);
+
+$margin-inline: (
+  "sm": 0.5em,
+  "normal": 1em,
+  "md": 1.5em,
+  "lg": 2em,
+  "xl": 3em,
+);
+
+@each $key, $val in $margin-block {
+  .m-block-#{$key} {
+    margin-block: $val;
+  }
+}
+
+@each $key, $val in $margin-inline {
+  .m-inline-#{$key} {
+    margin-inline: $val;
+  }
+}

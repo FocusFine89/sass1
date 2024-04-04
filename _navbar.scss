@@ -1,0 +1,22 @@
+header {
+  background-color: $bg-hero;
+  border-bottom: 1px solid black;
+  nav {
+    display: flex;
+    align-items: center;
+    > p {
+      font-weight: bold;
+      font-size: 1.5rem;
+    }
+  }
+  ul {
+    li {
+      display: inline-block;
+      margin-right: 2em;
+    }
+  }
+  a {
+    color: $testo;
+    text-decoration: none;
+  }
+}
